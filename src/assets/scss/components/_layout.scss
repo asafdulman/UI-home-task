@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.app {
+    background-color: #f6f7fa;
+}
+
+.container {
+    margin-left: 320px;
+}
+
+.main-container {
+    max-width: 1550px;
+    background-color: #f6f7fa;
+    margin: 0 auto;
+    padding-left: 30px;
+
+    .user-heading {
+        color: #0e1a35;
+        margin: 40px 0;
+        font-size: 48px;
+    }
+}
+
+.bottom-container-open {
+    max-width: 1490px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.bottom-container {
+    max-width: 1490px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}

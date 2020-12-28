@@ -1,0 +1,85 @@
+.charts-container {
+    display: flex;
+
+    h2 {
+        margin: 0 0 50px 0;
+        font-size: 32px;
+        font-weight: bold;
+        color: #8492af;
+    }
+
+    .period-box {
+        position: relative;
+        width: 200px;
+        height: 50px;
+        border: solid 1px rgba(132, 146, 175, 0.3);
+        background-color: #fff;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 14px;
+        color: #0e1a35;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        span {
+            color: #8492af;
+            margin: 0 5px 0 15px;
+        }
+
+        .arrow-down-charts {
+            position: absolute;
+            right: 20px;
+            cursor: pointer;
+        }
+    }
+}
+
+.sales-box {
+    margin: 0 30px 35px 0;
+    width: 570px;
+    height: 400px;
+    padding: 25px;
+    border: solid 1px rgba(132, 146, 175, 0.3);
+    background-color: #fff;
+
+    .pseudo-sales-chart {
+        width: 80%;
+        height: 200px;
+        background-color: rgb(233, 217, 197);
+    }
+
+    .sales-top {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.report-box {
+    height: 400px;
+    width: 890px;
+    border: solid 1px rgba(132, 146, 175, 0.3);
+    background-color: #fff;
+    padding: 25px;
+
+    .report-top {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .pseudo-report-chart {
+        width: 80%;
+        height: 200px;
+        background-color: rgb(233, 217, 197);
+
+    }
+
+}
+
+@media (max-width: 850px) {
+    .charts-container {
+        flex-wrap: wrap;
+        margin-bottom: 30px;
+    }
+}
