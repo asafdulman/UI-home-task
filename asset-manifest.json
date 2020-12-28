@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/UI-home-task/static/css/main.e18191b6.chunk.css",
+    "main.js": "/UI-home-task/static/js/main.672dc79f.chunk.js",
+    "main.js.map": "/UI-home-task/static/js/main.672dc79f.chunk.js.map",
+    "runtime-main.js": "/UI-home-task/static/js/runtime-main.3a8de036.js",
+    "runtime-main.js.map": "/UI-home-task/static/js/runtime-main.3a8de036.js.map",
+    "static/js/2.b7fe80fb.chunk.js": "/UI-home-task/static/js/2.b7fe80fb.chunk.js",
+    "static/js/2.b7fe80fb.chunk.js.map": "/UI-home-task/static/js/2.b7fe80fb.chunk.js.map",
+    "static/js/3.98c2b9c0.chunk.js": "/UI-home-task/static/js/3.98c2b9c0.chunk.js",
+    "static/js/3.98c2b9c0.chunk.js.map": "/UI-home-task/static/js/3.98c2b9c0.chunk.js.map",
+    "index.html": "/UI-home-task/index.html",
+    "static/css/main.e18191b6.chunk.css.map": "/UI-home-task/static/css/main.e18191b6.chunk.css.map",
+    "static/js/2.b7fe80fb.chunk.js.LICENSE.txt": "/UI-home-task/static/js/2.b7fe80fb.chunk.js.LICENSE.txt",
+    "static/media/profile.81dcd73b.JPG": "/UI-home-task/static/media/profile.81dcd73b.JPG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3a8de036.js",
+    "static/js/2.b7fe80fb.chunk.js",
+    "static/css/main.e18191b6.chunk.css",
+    "static/js/main.672dc79f.chunk.js"
+  ]
+}
