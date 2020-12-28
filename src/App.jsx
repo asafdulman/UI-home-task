@@ -20,7 +20,7 @@ function App() {
         <SideBar isSideBarOpen={isSideBarOpen} />
       </div>
       <div style={containerStyle} className="container">
-        <header className={isSideBarOpen ? 'top-bar-header-open' : 'top-bar-header'}>
+        <header className="top-bar-header">
           <TopBar setIsSideBarOpen={setIsSideBarOpen} isSideBarOpen={isSideBarOpen} />
         </header>
         <main className="main-container">
