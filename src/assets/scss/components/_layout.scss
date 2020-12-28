@@ -13,6 +13,7 @@ body {
 
 .container {
     margin-left: 320px;
+    transition: margin-left 0.2s ease-in-out 0s;
 }
 
 .main-container {
@@ -28,17 +29,19 @@ body {
     }
 }
 
-.bottom-container-open {
-    max-width: 1490px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-
-}
-
 .bottom-container {
     max-width: 1490px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+}
+
+@media (max-width: 1600px) {
+
+    .bottom-container {
+        max-width: 1490px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 }
